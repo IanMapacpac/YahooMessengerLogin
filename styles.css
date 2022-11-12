@@ -1,0 +1,142 @@
+body {
+    font-family: ' Inter ', sans-serif;
+    line-height: 20px;
+  }
+  
+hr{
+width: 536px;
+height: 0px;
+top: 400px;
+
+border: 1px solid #272727;
+margin-bottom: 60px;
+}
+
+.container{
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    
+    background: #FFFFFF;
+}
+
+.wrapper{
+
+box-sizing: border-box;
+
+position: absolute;
+width: 771px;
+height: 872px;
+left: 334px;
+top: 74px;
+
+border: 2px solid #B3B3B3;
+box-shadow: 8px 10px 4px 6px rgba(101, 15, 108, 0.7);
+border-radius: 20px;
+
+}
+.needhelp{
+    position: absolute;
+width: 165px;
+height: 60px;
+left: 592px;
+top: 0px;
+
+
+font-weight: 400;
+font-size: 28px;
+
+
+align-items: center;
+text-align: right;
+
+}
+
+.image{
+    position: absolute;
+width: 370px;
+height: 200px;
+left: 176px;
+top: 80px;
+
+background: url(image1.png);
+}
+
+.text_button{
+position: absolute;
+width: 536px;
+height: 227px;
+left: 118px;
+top: 321px;
+
+}
+
+.ghost{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 20px;
+    /* or 62% */
+    margin: 10px;
+    
+    align-items: center;
+    
+    color: rgba(117, 117, 117, 0.75);
+    }
+
+.button{
+position: absolute;
+width: 536px;
+height: 67px;
+top: 421;
+
+background: rgba(101, 15, 108, 0.8);
+border-radius: 6px;
+
+font-family: 'Inter';
+
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.staysign{
+    position: absolute;
+top: 157px;
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+
+/* or 71% */
+
+align-items: center;
+text-align: left;
+
+
+
+}
+.dontSign{
+    
+position: absolute;
+width: 451px;
+height: 57px;
+top:  770px;
+left: 161px;
+
+
+font-weight: 400;
+font-size: 28px;
+
+text-align: center;
+
+color: rgba(0, 0, 0, 0.9);
+
+}
+
+.purple{
+    color: #843F89;
+}
