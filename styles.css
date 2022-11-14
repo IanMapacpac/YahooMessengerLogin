@@ -67,30 +67,33 @@ position: absolute;
 width: 536px;
 height: 227px;
 left: 118px;
-top: 321px;
+top: 351px;
 
 }
 
-.ghost{
+
+
+input[type=text]{
+    width: auto;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
-    line-height: 20px;
+    line-height: 10px;
     /* or 62% */
     margin: 10px;
     
     align-items: center;
-    
-    color: rgba(117, 117, 117, 0.75);
-    }
+    border: white;
+    color: rgba(5, 5, 5, 0.75);
+}
 
 .button{
 position: absolute;
 width: 536px;
 height: 67px;
-top: 421;
 
+cursor: pointer;
 background: rgba(101, 15, 108, 0.8);
 border-radius: 6px;
 
@@ -139,4 +142,5 @@ color: rgba(0, 0, 0, 0.9);
 
 .purple{
     color: #843F89;
+    cursor: pointer;
 }
